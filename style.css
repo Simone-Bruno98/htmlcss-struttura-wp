@@ -1,0 +1,54 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    margin: 2% 10% 0% 10%;
+}
+
+header{
+    height: 50px;
+    background-color: yellowgreen;
+}
+nav{
+    height: 200px;
+    background-color: green;
+    margin: 2% 0px 10px 0px;
+}
+main{
+    background-color: blue;
+    
+}
+
+.clearfix::after{
+    Content: “”;
+    Display: table;
+    clear: both;
+}
+.sup{
+    height: 30px;
+    background-color: lightblue;
+}
+.sx{
+    height: 200px;
+    background-color: darkred;
+    float: left;
+    width: 25%;
+}
+.cen{
+    height: 200px;
+    background-color: red;
+    float: left;
+    width: 50%;
+    padding:2px 2px 2px 2px;
+}
+.dx{
+    height: 200px;
+    background-color: pink;
+    float: right;
+    width: 25%;
+}
+footer{
+    margin-top: 10px;
+    background-color: yellowgreen;
