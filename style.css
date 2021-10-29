@@ -2,54 +2,64 @@
 
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
 body{
-    background-color: yellow;
+    
     margin: 2% 10% 0% 10%;
 }
 
 header{
-    height: 50px;
-    background-color: yellowgreen;
+    height: 80px;
+    background-color: #E579E6;
 }
 nav{
-    height: 200px;
-    background-color: green;
+    height: 300px;
+    background-color: #E1D67A;
     margin: 2% 0px 10px 0px;
 }
 main{
-    background-color: blue;
-    
+    height: 364px;
+    background: #2D97F3;
 }
 
+
+
+.sup{
+    height: 50px;
+    background-color: #ABCFE7;
+}
+.sx{
+    height: 300px;
+    background-color: #ABCFE7;
+    float: left;
+    width: 23%;
+    margin: 2% 0%;
+}
+.cen{
+    height: 300px;
+    background-color: #ABCFE7;
+    float: left;
+    width: 50%;
+    margin:2% 2% 2% 2%;
+    
+}
+.dx{
+    height: 300px;
+    background-color: #ABCFE7;
+    float: left;
+    width: 23%;
+    margin: 2% 0%;
+    
+}
 .clearfix::after{
     Content: “”;
     Display: table;
     clear: both;
 }
-.sup{
-    height: 30px;
-    background-color: lightblue;
-}
-.sx{
-    height: 200px;
-    background-color: darkred;
-    float: left;
-    width: 25%;
-}
-.cen{
-    height: 200px;
-    background-color: red;
-    float: left;
-    width: 50%;
-    padding:2px 2px 2px 2px;
-    
-}
-.dx{
-    height: 200px;
-    background-color: pink;
-    float: right;
-    width: 25%;
-}
-footer{
-    margin-top: 10px;
-    background-color: yellowgreen;
+footer div{
+    clear: both;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #8801FE;
